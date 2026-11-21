@@ -1,0 +1,712 @@
+{
+ "id": "atendimento-cliente",
+ "titulo": "Atendimento ao cliente com educação",
+ "descricao": "Três competências do dia a dia do atendimento, presencial ou por telefone. Leva cerca de 5 minutos.",
+ "notaMinima": 80,
+ "video": {
+  "youtube": "",
+  "arquivo": "",
+  "legenda": "Vídeo curto com um atendimento bem feito e um mal feito."
+ },
+ "regras": [
+  {
+   "nome": "Receber bem",
+   "critica": false,
+   "videoInicio": null,
+   "texto": "Cumprimente o cliente assim que ele chegar, mesmo se estiver ocupado: um aceno e um “já te atendo” bastam. Olhe para a pessoa, sorria, apresente-se e use o nome dela quando souber. Se ela esperou, na fila ou no telefone, agradeça a paciência, sem expor problemas internos. Celular pessoal e conversas paralelas ficam de lado. Quem está na sua frente tem prioridade: para atender outro canal, peça licença e seja breve."
+  },
+  {
+   "nome": "Entender e resolver",
+   "critica": false,
+   "videoInicio": null,
+   "texto": "Ouça o pedido até o fim, sem interromper, e confirme com suas palavras o que entendeu. Explique em linguagem simples, sem siglas internas, e pergunte se ficou claro. Diga o que vai fazer e em quanto tempo; se não souber, diga que vai confirmar e quando dará retorno. Nunca prometa o que não depende de você. Antes de encerrar, confirme o combinado, pergunte se há algo mais e agradeça."
+  },
+  {
+   "nome": "Cliente insatisfeito",
+   "critica": true,
+   "videoInicio": null,
+   "texto": "Mantenha a calma e o tom de voz baixo; não discuta nem leve para o lado pessoal. Deixe o cliente falar, reconheça a chateação e peça desculpas pelo transtorno. Não culpe colegas, outros setores, o sistema ou a “política da empresa”. Resolva na hora o que estiver ao seu alcance; o que não estiver, registre e encaminhe a quem pode resolver, dizendo quando haverá retorno, e acompanhe. Diante de ofensa ou ameaça, chame o responsável, sem revidar."
+  }
+ ],
+ "questoes": [
+  {
+   "id": "r0t1",
+   "regra": 0,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "Um cliente chega enquanto você ainda está ocupado. O que mostra que ele foi notado?",
+   "alternativas": [
+    "Terminar a tarefa atual antes de levantar os olhos",
+    "Pedir a um colega que avise que você está ocupado",
+    "Cumprimentá-lo e olhar para ele, mesmo ocupado",
+    "Deixar a senha à vista para ele pegar sozinho"
+   ],
+   "correta": 2,
+   "explicacao": "Um cumprimento e um olhar levam dois segundos e mostram que o cliente já foi visto, mesmo antes de ser atendido.",
+   "equivocos": [
+    "Achar que cumprimentar atrapalha a tarefa; o cliente se sente ignorado.",
+    "Delegar o cumprimento; o cliente quer ser notado por quem vai atendê-lo.",
+    "",
+    "Trocar o contato humano por um procedimento; ninguém o recebeu."
+   ]
+  },
+  {
+   "id": "r0t2",
+   "regra": 0,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "vf",
+   "enunciado": "Se você está atendendo outra pessoa, o certo é não cumprimentar quem acabou de chegar, para não interromper.",
+   "correta": false,
+   "explicacao": "Um aceno e um “já te atendo” não atrapalham quem está sendo atendido e evitam que o recém-chegado se sinta ignorado.",
+   "equivoco": "Confundir cumprimentar com interromper."
+  },
+  {
+   "id": "r0t3",
+   "regra": 0,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multiselect",
+   "enunciado": "Marque as atitudes que fazem parte de receber bem o cliente.",
+   "alternativas": [
+    "Olhar para a pessoa e sorrir",
+    "Apresentar-se pelo nome",
+    "Usar o nome do cliente quando souber",
+    "Cumprimentar sem tirar os olhos do celular",
+    "Pedir o CPF antes de cumprimentar"
+   ],
+   "corretas": [
+    0,
+    1,
+    2
+   ],
+   "notas": [
+    "É o primeiro sinal de que ela é bem-vinda.",
+    "Mostra que há uma pessoa responsável pelo atendimento.",
+    "Faz o cliente se sentir atendido como pessoa, não como número.",
+    "Celular pessoal fica de lado durante o atendimento.",
+    "Primeiro a pessoa, depois o cadastro."
+   ],
+   "explicacao": "Receber bem é olhar, sorrir, apresentar-se e chamar o cliente pelo nome quando possível.",
+   "equivoco": "Achar que receber bem é só ser rápido no cadastro."
+  },
+  {
+   "id": "r0t4",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "Dona Lúcia esperou 15 minutos na fila. Quando chega a vez dela, qual é a melhor abertura?",
+   "alternativas": [
+    "“Bom dia, dona Lúcia! Obrigada pela paciência.”",
+    "“Pois não? Hoje o movimento está fora do normal, sabe como é.”",
+    "“Próximo! Já me passa o documento, que eu vou adiantando.”",
+    "“Desculpa a demora, estamos com metade da equipe hoje.”"
+   ],
+   "correta": 0,
+   "explicacao": "Quem esperou merece um agradecimento pela paciência, sem desculpas sobre problemas internos.",
+   "equivocos": [
+    "",
+    "Justificar a espera em vez de reconhecê-la.",
+    "Tratar o cliente como número da fila.",
+    "Expor problemas internos ao cliente."
+   ]
+  },
+  {
+   "id": "r0t5",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "ordenar",
+   "enunciado": "Um cliente chega ao balcão enquanto você digita. Coloque o início do atendimento na ordem.",
+   "itens": [
+    "Parar de digitar e olhar para o cliente",
+    "Cumprimentar e se apresentar",
+    "Perguntar em que pode ajudar",
+    "Ouvir o pedido até o fim"
+   ],
+   "explicacao": "Primeiro a atenção, depois o cumprimento, a pergunta e a escuta.",
+   "equivoco": "Perguntar o que ele quer antes de cumprimentá-lo."
+  },
+  {
+   "id": "r0t6",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "associar",
+   "enunciado": "Classifique cada atitude na chegada do cliente.",
+   "opcoes": [
+    "Acolhe",
+    "Afasta"
+   ],
+   "pares": [
+    {
+     "item": "Acenar e dizer “já te atendo” enquanto termina outro atendimento",
+     "resposta": 0
+    },
+    {
+     "item": "Atender com fone de ouvido tocando música",
+     "resposta": 1
+    },
+    {
+     "item": "Chamar o cliente pelo nome que está na ficha",
+     "resposta": 0
+    },
+    {
+     "item": "Responder “oi” sem tirar os olhos da tela",
+     "resposta": 1
+    },
+    {
+     "item": "Agradecer quem esperou 10 minutos",
+     "resposta": 0
+    }
+   ],
+   "explicacao": "Acolher é mostrar atenção à pessoa: olhar, chamar pelo nome, reconhecer a espera.",
+   "equivoco": "Achar que a atenção pode ficar dividida com outra coisa."
+  },
+  {
+   "id": "r0a1",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multipla",
+   "enunciado": "O telefone toca enquanto você atende um cliente no balcão. O que fazer?",
+   "alternativas": [
+    "Pedir licença, atender rápido e combinar o retorno",
+    "Deixar tocar até parar, sem comentar nada com o cliente",
+    "Atender e resolver a ligação toda, pois pode ser urgente",
+    "Pedir ao cliente da frente que aguarde do lado de fora"
+   ],
+   "correta": 0,
+   "explicacao": "Quem está na sua frente tem prioridade; para atender outro canal, peça licença e seja breve.",
+   "equivocos": [
+    "",
+    "Ignorar o outro canal sem explicação.",
+    "Inverter a prioridade de quem está na sua frente.",
+    "Afastar quem já estava sendo atendido."
+   ]
+  },
+  {
+   "id": "r0a2",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "vf",
+   "enunciado": "Usar o nome do cliente, quando você o sabe, ajuda a mostrar que ele está sendo atendido como pessoa.",
+   "correta": true,
+   "explicacao": "Chamar pelo nome é um dos gestos mais simples de acolhimento.",
+   "equivoco": "Achar que chamar pelo nome é intimidade demais."
+  },
+  {
+   "id": "r0a3",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multiselect",
+   "enunciado": "Seu Carlos chega ao balcão enquanto você responde uma mensagem pessoal no celular. Marque o que fazer.",
+   "alternativas": [
+    "Guardar o celular",
+    "Olhar para ele e cumprimentar",
+    "Terminar de responder a mensagem primeiro",
+    "Perguntar em que pode ajudar",
+    "Explicar que estava no seu intervalo"
+   ],
+   "corretas": [
+    0,
+    1,
+    3
+   ],
+   "notas": [
+    "Celular pessoal fica de lado.",
+    "Ele precisa ser notado logo.",
+    "O cliente vem antes da conversa pessoal.",
+    "Abre o atendimento.",
+    "Justificativa que não interessa ao cliente."
+   ],
+   "explicacao": "Celular de lado, olhar, cumprimento e a pergunta de abertura.",
+   "equivoco": "Achar que dá para terminar a mensagem antes."
+  },
+  {
+   "id": "r0a4",
+   "regra": 0,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "associar",
+   "enunciado": "Escolha a melhor primeira frase para cada situação.",
+   "opcoes": [
+    "Obrigado pela paciência",
+    "Já te atendo",
+    "Em que posso ajudar?"
+   ],
+   "pares": [
+    {
+     "item": "Cliente chega e você está livre",
+     "resposta": 2
+    },
+    {
+     "item": "Cliente chega enquanto você atende outra pessoa",
+     "resposta": 1
+    },
+    {
+     "item": "Cliente esperou 20 minutos na fila",
+     "resposta": 0
+    },
+    {
+     "item": "Cliente ficou aguardando na linha do telefone",
+     "resposta": 0
+    }
+   ],
+   "explicacao": "Livre: abra o atendimento. Ocupado: sinalize que já vai atender. Houve espera: agradeça a paciência.",
+   "equivoco": "Usar a mesma frase para todas as situações."
+  },
+  {
+   "id": "r1t1",
+   "regra": 1,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "Depois que o cliente explica o problema, o que fazer antes de propor a solução?",
+   "alternativas": [
+    "Já informar qual é a regra da empresa sobre o assunto",
+    "Repetir com suas palavras o que entendeu e confirmar",
+    "Pedir que ele conte tudo de novo desde o começo",
+    "Encaminhar para outro setor para ganhar tempo"
+   ],
+   "correta": 1,
+   "explicacao": "Confirmar o que entendeu evita resolver o problema errado.",
+   "equivocos": [
+    "Responder antes de ter certeza de que entendeu.",
+    "",
+    "Fazer o cliente repetir em vez de confirmar.",
+    "Encaminhar sem entender, o que gera idas e vindas."
+   ]
+  },
+  {
+   "id": "r1t2",
+   "regra": 1,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "vf",
+   "enunciado": "Quando você não sabe o prazo, é melhor dizer “amanhã fica pronto” para o cliente sair tranquilo.",
+   "correta": false,
+   "explicacao": "Se não sabe, diga que vai confirmar e quando dará retorno; promessa sem base vira nova reclamação.",
+   "equivoco": "Prometer para agradar na hora."
+  },
+  {
+   "id": "r1t3",
+   "regra": 1,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multiselect",
+   "enunciado": "Marque o que ajuda o cliente a entender a sua resposta.",
+   "alternativas": [
+    "Frases curtas e palavras do dia a dia",
+    "Siglas internas como “OS” e “NF”",
+    "Dizer o próximo passo e o prazo",
+    "Perguntar se ficou alguma dúvida",
+    "Falar mais rápido para não tomar o tempo dele"
+   ],
+   "corretas": [
+    0,
+    2,
+    3
+   ],
+   "notas": [
+    "Linguagem simples.",
+    "Siglas internas confundem quem é de fora.",
+    "O cliente sai sabendo o que vai acontecer.",
+    "Confirma que a explicação funcionou.",
+    "Pressa atrapalha o entendimento."
+   ],
+   "explicacao": "Linguagem simples, próximo passo com prazo e a checagem final.",
+   "equivoco": "Achar que o cliente conhece os termos da empresa."
+  },
+  {
+   "id": "r1t4",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "A cliente começa a explicar o problema e, na metade, você já percebe do que se trata. O que fazer?",
+   "alternativas": [
+    "Interromper educadamente e já dar a solução",
+    "Ir buscando o formulário enquanto ela fala",
+    "Dizer que esse caso é comum e resolver logo",
+    "Deixar terminar e confirmar o que entendeu"
+   ],
+   "correta": 3,
+   "explicacao": "Ouvir até o fim e confirmar evita erro e mostra respeito.",
+   "equivocos": [
+    "Interromper, mesmo com educação, passa a sensação de não ser ouvida.",
+    "Mostrar desatenção enquanto ela ainda explica.",
+    "Tratar o caso dela como mais um, sem ouvir o que pode ser diferente.",
+    ""
+   ]
+  },
+  {
+   "id": "r1t5",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "ordenar",
+   "enunciado": "Coloque as etapas do atendimento na ordem.",
+   "itens": [
+    "Ouvir o pedido até o fim",
+    "Confirmar o que entendeu",
+    "Explicar o que vai fazer e em quanto tempo",
+    "Perguntar se há mais alguma coisa",
+    "Agradecer e se despedir"
+   ],
+   "explicacao": "Ouvir, confirmar, combinar o próximo passo e só então encerrar.",
+   "equivoco": "Encerrar sem perguntar se há algo mais."
+  },
+  {
+   "id": "r1t6",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "associar",
+   "enunciado": "Cada frase é um compromisso responsável ou uma promessa a evitar?",
+   "opcoes": [
+    "Pode dizer",
+    "Evite"
+   ],
+   "pares": [
+    {
+     "item": "“Vou verificar com o estoque e te ligo até as 16h.”",
+     "resposta": 0
+    },
+    {
+     "item": "“Fica tranquilo, com certeza chega amanhã.”",
+     "resposta": 1
+    },
+    {
+     "item": "“Não sei o prazo agora; vou confirmar e te aviso hoje.”",
+     "resposta": 0
+    },
+    {
+     "item": "“O gerente vai te dar desconto, pode deixar.”",
+     "resposta": 1
+    }
+   ],
+   "explicacao": "Pode prometer o que depende de você (verificar, retornar); evite garantir o que depende de outros.",
+   "equivoco": "Prometer o que não depende de você."
+  },
+  {
+   "id": "r1a1",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multipla",
+   "enunciado": "Um cliente pergunta se o conserto do celular dele fica pronto hoje. Você não sabe. Qual é a melhor resposta?",
+   "alternativas": [
+    "“Deve ficar, normalmente fica pronto no mesmo dia.”",
+    "“Isso não é comigo, o senhor vê com o técnico.”",
+    "“Vou confirmar com o técnico agora e já te digo.”",
+    "“Hoje com certeza, pode voltar às seis da tarde.”"
+   ],
+   "correta": 2,
+   "explicacao": "Se não sabe, diga que vai confirmar e quando dará retorno.",
+   "equivocos": [
+    "Responder com um palpite.",
+    "Empurrar o cliente para outro setor sem ajudar.",
+    "",
+    "Prometer o que não depende de você."
+   ]
+  },
+  {
+   "id": "r1a2",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "vf",
+   "enunciado": "Repetir com suas palavras o que o cliente pediu ajuda a evitar retrabalho e mal-entendido.",
+   "correta": true,
+   "explicacao": "Confirmar o entendimento é parte de resolver.",
+   "equivoco": "Achar que repetir é perda de tempo."
+  },
+  {
+   "id": "r1a3",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multiselect",
+   "enunciado": "Antes de encerrar um atendimento, marque o que fazer.",
+   "alternativas": [
+    "Perguntar se há mais alguma coisa",
+    "Agradecer",
+    "Confirmar o próximo passo combinado",
+    "Chamar o próximo enquanto ele guarda as coisas",
+    "Encerrar logo para não alongar a conversa"
+   ],
+   "corretas": [
+    0,
+    1,
+    2
+   ],
+   "notas": [
+    "Evita que o cliente volte.",
+    "Fecha bem o atendimento.",
+    "O cliente sai sabendo o que vai acontecer.",
+    "O cliente sente que foi despachado.",
+    "Pressa no fim apaga o bom atendimento."
+   ],
+   "explicacao": "Confirmar o combinado, perguntar se há algo mais e agradecer.",
+   "equivoco": "Encerrar às pressas."
+  },
+  {
+   "id": "r1a4",
+   "regra": 1,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multipla",
+   "enunciado": "Você explica a troca usando “NF”, “RMA” e “SLA”. O cliente fica em silêncio. O que fazer?",
+   "alternativas": [
+    "Repetir a mesma explicação, só que bem mais devagar",
+    "Explicar sem as siglas e perguntar se ficou claro",
+    "Entregar um folheto e encerrar o atendimento",
+    "Seguir em frente, já que ele não fez perguntas"
+   ],
+   "correta": 1,
+   "explicacao": "Sem siglas internas, e sempre confirmando se ficou claro.",
+   "equivocos": [
+    "O problema são as siglas, não a velocidade.",
+    "",
+    "Transferir a explicação para um papel.",
+    "Tomar silêncio por entendimento."
+   ]
+  },
+  {
+   "id": "r2t1",
+   "regra": 2,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "Diante de um cliente irritado, qual atitude vem primeiro?",
+   "alternativas": [
+    "Manter a calma e ouvir o cliente",
+    "Explicar logo que a culpa não é sua",
+    "Falar mais alto para ser ouvido",
+    "Chamar o segurança por precaução"
+   ],
+   "correta": 0,
+   "explicacao": "Calma e escuta vêm antes de qualquer explicação.",
+   "equivocos": [
+    "",
+    "Defender-se antes de ouvir aumenta a irritação.",
+    "Elevar o tom vira discussão.",
+    "Tratar insatisfação como ameaça."
+   ]
+  },
+  {
+   "id": "r2t2",
+   "regra": 2,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "vf",
+   "enunciado": "Dizer ao cliente que “o erro foi do pessoal do estoque” acalma a situação, porque mostra que você não tem culpa.",
+   "correta": false,
+   "explicacao": "Para o cliente, quem atende representa a empresa. Culpar colegas passa a imagem de desorganização e não resolve nada.",
+   "equivoco": "Achar que culpar outro setor protege você."
+  },
+  {
+   "id": "r2t3",
+   "regra": 2,
+   "nivel": 1,
+   "uso": "treino",
+   "tipo": "multiselect",
+   "enunciado": "Marque as frases adequadas para um cliente insatisfeito.",
+   "alternativas": [
+    "“Entendo sua chateação, vamos resolver.”",
+    "“Sinto muito pelo transtorno.”",
+    "“Calma, não precisa disso.”",
+    "“O sistema é assim, não posso fazer nada.”",
+    "“Vou ver agora o que pode ser feito.”"
+   ],
+   "corretas": [
+    0,
+    1,
+    4
+   ],
+   "notas": [
+    "Reconhece o sentimento e aponta para a solução.",
+    "Desculpa pelo transtorno, sem discutir culpa.",
+    "Mandar ter calma costuma irritar mais.",
+    "Culpa o sistema e fecha a porta.",
+    "Mostra ação."
+   ],
+   "explicacao": "Reconhecer, pedir desculpas pelo transtorno e mostrar ação.",
+   "equivoco": "Mandar o cliente se acalmar."
+  },
+  {
+   "id": "r2t4",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "multipla",
+   "enunciado": "Uma cliente diz, alterada: “Isso é um absurdo, vocês não sabem trabalhar!” Qual é a melhor resposta?",
+   "alternativas": [
+    "“Não precisa falar assim, eu só estou fazendo meu trabalho.”",
+    "“Se a senhora não se acalmar, não consigo atender.”",
+    "“Entendo sua chateação. Me conta o que aconteceu?”",
+    "“Isso não foi comigo, a senhora fala com o gerente.”"
+   ],
+   "correta": 2,
+   "explicacao": "Reconheça o sentimento e convide o cliente a explicar; não discuta nem leve para o lado pessoal.",
+   "equivocos": [
+    "Levar para o lado pessoal.",
+    "Condicionar o atendimento à calma dela.",
+    "",
+    "Passar adiante sem ouvir."
+   ]
+  },
+  {
+   "id": "r2t5",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "ordenar",
+   "enunciado": "Coloque na ordem o atendimento de uma reclamação.",
+   "itens": [
+    "Ouvir sem interromper",
+    "Reconhecer a chateação e pedir desculpas pelo transtorno",
+    "Resolver ou encaminhar, dizendo quando haverá retorno",
+    "Acompanhar até o combinado ser cumprido"
+   ],
+   "explicacao": "Ouvir, reconhecer, resolver ou encaminhar com prazo e acompanhar.",
+   "equivoco": "Propor solução antes de ouvir."
+  },
+  {
+   "id": "r2t6",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "treino",
+   "tipo": "associar",
+   "enunciado": "O que fazer em cada caso?",
+   "opcoes": [
+    "Resolver na hora",
+    "Encaminhar com prazo",
+    "Chamar o responsável"
+   ],
+   "pares": [
+    {
+     "item": "Troca de produto que você tem autorização para fazer",
+     "resposta": 0
+    },
+    {
+     "item": "Pedido de reembolso que só o financeiro aprova",
+     "resposta": 1
+    },
+    {
+     "item": "Cliente xinga e ameaça o atendente",
+     "resposta": 2
+    },
+    {
+     "item": "Pedido entregue errado que você pode corrigir agora",
+     "resposta": 0
+    }
+   ],
+   "explicacao": "Resolva o que está ao seu alcance, encaminhe com prazo o que não está e chame o responsável diante de ofensa ou ameaça.",
+   "equivoco": "Encaminhar o que você mesmo poderia resolver."
+  },
+  {
+   "id": "r2a1",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multipla",
+   "enunciado": "Um cliente reclama de uma cobrança errada que só o financeiro pode corrigir. Qual é a melhor conduta?",
+   "alternativas": [
+    "Dizer que o problema é do financeiro e passar o telefone de lá",
+    "Garantir que o valor será devolvido ainda hoje",
+    "Explicar que o sistema às vezes erra e não há o que fazer",
+    "Desculpar-se, registrar e dizer quando haverá retorno"
+   ],
+   "correta": 3,
+   "explicacao": "Fora do seu alcance: registre, encaminhe, diga quando haverá retorno e acompanhe.",
+   "equivocos": [
+    "Culpar outro setor e transferir o problema.",
+    "Prometer o que não depende de você.",
+    "Culpar o sistema e não oferecer saída.",
+    ""
+   ]
+  },
+  {
+   "id": "r2a2",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "vf",
+   "enunciado": "Quando o cliente passa a ofender ou ameaçar, o atendente deve chamar o responsável em vez de revidar.",
+   "correta": true,
+   "explicacao": "Ofensa ou ameaça: chame o responsável e não revide.",
+   "equivoco": "Achar que precisa se impor sozinho."
+  },
+  {
+   "id": "r2a3",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "multiselect",
+   "enunciado": "Um cliente fala alto no balcão porque o pedido atrasou. Marque o que fazer.",
+   "alternativas": [
+    "Manter o tom de voz baixo",
+    "Reconhecer que o atraso causou transtorno",
+    "Dizer que outros clientes também estão esperando",
+    "Informar o que vai ser feito e quando",
+    "Responder no mesmo tom para impor respeito"
+   ],
+   "corretas": [
+    0,
+    1,
+    3
+   ],
+   "notas": [
+    "Tom baixo ajuda a baixar o do cliente.",
+    "Reconhecer a chateação.",
+    "Compara e diminui o problema dele.",
+    "Ação com prazo.",
+    "Vira discussão."
+   ],
+   "explicacao": "Calma, reconhecimento e uma ação com prazo.",
+   "equivoco": "Responder no mesmo tom."
+  },
+  {
+   "id": "r2a4",
+   "regra": 2,
+   "nivel": 2,
+   "uso": "avaliacao",
+   "tipo": "associar",
+   "enunciado": "Classifique cada resposta a uma reclamação.",
+   "opcoes": [
+    "Acalma",
+    "Piora"
+   ],
+   "pares": [
+    {
+     "item": "“Sinto muito por isso. Vou resolver agora.”",
+     "resposta": 0
+    },
+    {
+     "item": "“Não fui eu que atendi o senhor da outra vez.”",
+     "resposta": 1
+    },
+    {
+     "item": "“Calma, também não é o fim do mundo.”",
+     "resposta": 1
+    },
+    {
+     "item": "“Entendo. Deixa eu ver o que posso fazer.”",
+     "resposta": 0
+    },
+    {
+     "item": "“É política da empresa, não tem jeito.”",
+     "resposta": 1
+    }
+   ],
+   "explicacao": "Acalma quem reconhece e age; piora quem se defende, minimiza ou culpa a empresa.",
+   "equivoco": "Achar que se defender resolve."
+  }
+ ]
+}
